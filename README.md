@@ -1,8 +1,8 @@
-### Titulo
-texto
+# Estudos
+Esse repositório se destina aos estudos pessoais em programação. Há diversas algoritmos e codigos com diferentes propósitos em variadas linguagens.
 
-## Subtitulo
-texto
-
-# sub sub titulo
-texto
+## Linguagens
+O repositório apresenta códigos nas seguintes linguages:
+- C
+- Java
+- Python
