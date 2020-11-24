@@ -8,4 +8,4 @@ O repositório apresenta códigos nas seguintes linguages:
 - Python
 
 ## Objetivos
-O repositório Estudos tem com propósito aprimorar os conhecimentos em programação e o versionamento de código.
+O repositório 'Estudos' tem com propósito aprimorar os conhecimentos em programação e o versionamento de código.

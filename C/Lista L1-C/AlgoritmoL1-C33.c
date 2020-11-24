@@ -46,9 +46,5 @@ int main()
     {
         printf("Fatoracao nao e possivel para o numero %d!", numero);
     }
-    
-    
-
-
     return 0;
 }
