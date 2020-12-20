@@ -32,7 +32,7 @@ int main()
     if(quantidade_impares != 0) { media_impar = soma_impar / quantidade_impares; }
     
     // Saida
-    printf("MEDIA PAR: %.2lf\n", media_par);
-    printf("MEDIA IMPAR: %.2lf\n", media_impar);
+    printf("MEDIA PAR = %.2lf\n", media_par);
+    printf("MEDIA IMPAR = %.2lf\n", media_impar);
     return 0;
 }

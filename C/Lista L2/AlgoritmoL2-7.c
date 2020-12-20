@@ -5,7 +5,7 @@
 int main()
 {
     // Declaração de Variáveis
-    int i, j, n, ordem[100000], contador, auxiliar;
+    int i, j, n, ordem[10000], contador, auxiliar;
 
     while(n != 0)
     {

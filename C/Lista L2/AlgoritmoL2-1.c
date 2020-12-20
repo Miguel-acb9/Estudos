@@ -9,12 +9,7 @@ int main()
 
     // Entrada
     scanf("%u", &n);
-    
-    for(i = 0; i < n; i++)
-    {
-        scanf("%d", &lista[i]);
-    }
-
+    for(i = 0; i < n; i++) { scanf("%d", &lista[i]); }
     scanf("%d", &m);
 
     for(i = 0; i < m; i++)
@@ -23,19 +18,10 @@ int main()
         scanf("%d", &numero);
         for(j = 0; j < n; j++)
         {
-            if(numero == lista[j])
-            {
-                chave = 1;
-            }
+            if(numero == lista[j]) { chave = 1; }
         }
-        if(chave == 1)
-        {
-            printf("ACHEI\n");
-        }
-        else
-        {
-            printf("NAO ACHEI\n");
-        }
+        if(chave == 1) { printf("ACHEI\n"); }
+        else { printf("NAO ACHEI\n"); }
     }
     return 0;
 }

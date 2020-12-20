@@ -5,11 +5,17 @@
 int main()
 {
     // Declaração de Variáveis
+    int i, j;
     double determinante, matriz[2][2];
 
     // Entrada
-    scanf("%lf %lf", matriz[0][0], matriz[0][1]); 
-    scanf("%lf %lf", matriz[1][0], matriz[1][1]);
+    for(i = 0; i < 2; i++) 
+    {
+        for(j = 0; j < 2; j++)
+        {
+            scanf("%lf", &matriz[i][j]);
+        }
+    }
 
     determinante = (matriz[0][0] * matriz[1][1]) - (matriz[0][1] * matriz[1][0]);
 

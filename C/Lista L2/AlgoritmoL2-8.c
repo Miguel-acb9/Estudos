@@ -5,15 +5,11 @@
 int main()
 {
     // Declaração de Variáveis
-    int i, j, numero_decimal, numero_binario[32], limpa;
+    int i, j, numero_decimal, numero_binario[32];
 
-    do
+    while( scanf("%d", &numero_decimal) != EOF)
     {
         i = 0;
-
-        // Entrada
-        scanf("%d", &numero_decimal);
-
         if(numero_decimal == 0)
         {
             numero_binario[i] = 0;
@@ -29,14 +25,12 @@ int main()
             }
         }
 
-        for(j = i-1; j >= 0; j--)
+        for(j = (i-1); j >= 0; j--)
         {
             // Saída
             printf("%d", numero_binario[j]);
         }
 	    printf("\n");
     }
-    while(numero_decimal != EOF);
-
 	return 0;
 }
